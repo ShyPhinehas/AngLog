@@ -41,10 +41,10 @@
 		607FACE51AFB9204008FA782 /* AngLog_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AngLog_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7BC9D8C3B5CB3E6FFFC02FBB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		933611B702AA26339966FC86 /* AngLog.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AngLog.podspec; path = ../AngLog.podspec; sourceTree = "<group>"; };
+		7BC9D8C3B5CB3E6FFFC02FBB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		933611B702AA26339966FC86 /* AngLog.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AngLog.podspec; path = ../AngLog.podspec; sourceTree = "<group>"; };
 		B1AA937C4BA531DB18E8D9B7 /* Pods-AngLog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AngLog_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AngLog_Tests/Pods-AngLog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C66571FA00C6E182A6DF21AC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C66571FA00C6E182A6DF21AC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E07A26C2EA4F4E966BA9E9DC /* Pods_AngLog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AngLog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FECE61462C2B61A2A8E766CB /* Pods-AngLog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AngLog_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AngLog_Example/Pods-AngLog_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -215,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = SL6Z6PSCF7;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = SL6Z6PSCF7;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -496,6 +498,7 @@
 			baseConfigurationReference = FECE61462C2B61A2A8E766CB /* Pods-AngLog_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SL6Z6PSCF7;
 				INFOPLIST_FILE = AngLog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -510,6 +513,7 @@
 			baseConfigurationReference = 296933EAF3DDF35DA3A690AB /* Pods-AngLog_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SL6Z6PSCF7;
 				INFOPLIST_FILE = AngLog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -523,6 +527,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B1AA937C4BA531DB18E8D9B7 /* Pods-AngLog_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = SL6Z6PSCF7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -543,6 +548,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2E68B10CC2E3AEBAA744CB0D /* Pods-AngLog_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = SL6Z6PSCF7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		09245E77F29AEA10ABA4DB4B2273C76E /* Pods-AngLog_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DBBEDB4870029299B97D1322B52893F /* Pods-AngLog_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		516A52EC1F304D6B00B1CFB0 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516A52EB1F304D6B00B1CFB0 /* Log.swift */; };
 		665C7CDF6FD707C6F500A9F12B97513B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		8D5F482370609501D8B005AFE9C8A73F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		905F85A887D2C27CDD7CCA2CA205F0AC /* Pods-AngLog_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5FD455EEA5BC0BC87923CF60FEAC1C /* Pods-AngLog_Example-dummy.m */; };
-		9A5D36B0AE2D106F7186F5AA8B9557E2 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649B683EC564F6EFF7E55CA2273B0840 /* ReplaceMe.swift */; };
 		9B1315A8E41F052302D8CC16D2F99811 /* AngLog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9472A87ADED7C4E0A3D2CB50FD002F17 /* AngLog-dummy.m */; };
 		B9843BE18A806E2032DE03D99B6FC4ED /* Pods-AngLog_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E264D40A010AAD59A8755F2CBC66B1 /* Pods-AngLog_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D987FB3634811DE11FC753486362924A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -30,7 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05F24F5E7462A51047BD5052302963EC /* Pods_AngLog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AngLog_Tests.framework; path = "Pods-AngLog_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F24F5E7462A51047BD5052302963EC /* Pods_AngLog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AngLog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		086E9019CDF5EC6648BE85B49E62F189 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CB9C50C885F2513B69A18611D931476 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D5FD455EEA5BC0BC87923CF60FEAC1C /* Pods-AngLog_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AngLog_Example-dummy.m"; sourceTree = "<group>"; };
@@ -42,25 +42,25 @@
 		48CE0675C00FF84D17CC654892F13C6A /* Pods-AngLog_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AngLog_Tests-dummy.m"; sourceTree = "<group>"; };
 		496C3C746525D5A8B2824CC40182AE71 /* AngLog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AngLog.xcconfig; sourceTree = "<group>"; };
 		4AEFC7440D1A2596CBE0F3E36605468D /* Pods-AngLog_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AngLog_Example-resources.sh"; sourceTree = "<group>"; };
+		516A52EB1F304D6B00B1CFB0 /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		5DBBEDB4870029299B97D1322B52893F /* Pods-AngLog_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AngLog_Example-umbrella.h"; sourceTree = "<group>"; };
-		649B683EC564F6EFF7E55CA2273B0840 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6CAB2EA9F07D589E4BECA4C1A76B286A /* AngLog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AngLog-umbrella.h"; sourceTree = "<group>"; };
 		78D2AB3D01815F4BE05257F443691CE7 /* Pods-AngLog_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AngLog_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		78FF2FC0AABFF1B84712D504AF2AD09B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93E264D40A010AAD59A8755F2CBC66B1 /* Pods-AngLog_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AngLog_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9472A87ADED7C4E0A3D2CB50FD002F17 /* AngLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AngLog-dummy.m"; sourceTree = "<group>"; };
 		982DF5E16B6F8E86D10FA135DEEEF7FA /* Pods-AngLog_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AngLog_Tests-resources.sh"; sourceTree = "<group>"; };
 		A8F3A99D1BDE8A6D3A8C90148EF95226 /* Pods-AngLog_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AngLog_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B77ABA140E9BCBFB3A27D275E97E5BA4 /* Pods-AngLog_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AngLog_Example.modulemap"; sourceTree = "<group>"; };
-		BF211808A282FEE752512B14FDBB846F /* Pods-AngLog_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AngLog_Tests.modulemap"; sourceTree = "<group>"; };
-		D0ADC47637F57602287F62E60A77412B /* Pods_AngLog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AngLog_Example.framework; path = "Pods-AngLog_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B77ABA140E9BCBFB3A27D275E97E5BA4 /* Pods-AngLog_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AngLog_Example.modulemap"; sourceTree = "<group>"; };
+		BF211808A282FEE752512B14FDBB846F /* Pods-AngLog_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AngLog_Tests.modulemap"; sourceTree = "<group>"; };
+		D0ADC47637F57602287F62E60A77412B /* Pods_AngLog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AngLog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D273894FEC78B7B3D90C0B0C76D3E539 /* Pods-AngLog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AngLog_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DFEBDF47E27B98869AE25ACF226C16C2 /* AngLog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AngLog-prefix.pch"; sourceTree = "<group>"; };
-		E354F7AD658AD33427DFF083CB4027B8 /* AngLog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AngLog.modulemap; sourceTree = "<group>"; };
+		E354F7AD658AD33427DFF083CB4027B8 /* AngLog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AngLog.modulemap; sourceTree = "<group>"; };
 		F57A46DA78195117F21446EA86B8C9CC /* Pods-AngLog_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AngLog_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F72D6B8C198EE8F02267B84191EAC47B /* AngLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AngLog.framework; path = AngLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F72D6B8C198EE8F02267B84191EAC47B /* AngLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AngLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F75D1CBB00A61C5373378C79A92C60AB /* Pods-AngLog_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AngLog_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,9 +114,8 @@
 		534B8118D3CA297307671CD0A4B69DC7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				649B683EC564F6EFF7E55CA2273B0840 /* ReplaceMe.swift */,
+				516A52EB1F304D6B00B1CFB0 /* Log.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -143,7 +142,6 @@
 			children = (
 				534B8118D3CA297307671CD0A4B69DC7 /* Classes */,
 			);
-			name = AngLog;
 			path = AngLog;
 			sourceTree = "<group>";
 		};
@@ -314,6 +312,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					3F035E6C78BFB3BB906130D3DA59FDDA = {
+						LastSwiftMigration = 0830;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -355,8 +358,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				516A52EC1F304D6B00B1CFB0 /* Log.swift in Sources */,
 				9B1315A8E41F052302D8CC16D2F99811 /* AngLog-dummy.m in Sources */,
-				9A5D36B0AE2D106F7186F5AA8B9557E2 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +427,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 496C3C746525D5A8B2824CC40182AE71 /* AngLog.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -497,6 +501,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 496C3C746525D5A8B2824CC40182AE71 /* AngLog.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
