@@ -22,7 +22,7 @@ pod "AngLog"
 
 ## Author
 
-skyphinehas@hanmail.net, montelia@naver.com
+skyphinehas@hanmail.net
 
 ## License
 

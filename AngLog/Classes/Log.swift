@@ -27,7 +27,7 @@ public class Log : NSObject{
     var isDebugModeOn : Bool = true
     
     //MARK:-- manager
-    static let e = Log()
+    static public let e = Log()
     let folderName : String = "Log"
     let fileName : String = "log.txt"
     let limitedFileSize : UInt64 = 5 * 1024 * 1024 // 5mb
