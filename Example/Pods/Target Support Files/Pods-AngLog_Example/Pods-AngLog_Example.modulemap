@@ -1,0 +1,6 @@
+framework module Pods_AngLog_Example {
+  umbrella header "Pods-AngLog_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

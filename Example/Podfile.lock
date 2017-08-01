@@ -1,0 +1,16 @@
+PODS:
+  - AngLog (0.1.0)
+
+DEPENDENCIES:
+  - AngLog (from `../`)
+
+EXTERNAL SOURCES:
+  AngLog:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AngLog: 2a9ba22c03b9275da40db053aac32ed2cecf41f0
+
+PODFILE CHECKSUM: 6b6cfbdede8f1ef9f56ab2f34469df22d460f733
+
+COCOAPODS: 1.2.1
