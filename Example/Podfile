@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AngLog_Example' do
+  pod 'AngLog', :path => '../'
+
+  target 'AngLog_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
