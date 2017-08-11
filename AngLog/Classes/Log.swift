@@ -10,7 +10,7 @@ import Foundation
 
 public class Log : NSObject{
     
-    static public func d(_ str : String,fileName: String = #file , lineNumber: Int = #line,functionName: String = #function){
+    static public func d(_ str : String,isWriteFile : Bool = true,fileName: String = #file , lineNumber: Int = #line,functionName: String = #function){
         
         let log : String = {
             let justFileName = (fileName.components(separatedBy: "/").last)?.components(separatedBy: ".").first
@@ -21,7 +21,14 @@ public class Log : NSObject{
             print(log)
         }
         
-        e.toFile(log: log)
+        if isWriteFile{
+            e.toFile(log: log)
+        }
+        
+    }
+    
+    static public func p(_ str : String,isWriteFile : Bool = true,fileName: String = #file , lineNumber: Int = #line,functionName: String = #function){
+        d(str,isWriteFile: false)
     }
     
     var isDebugModeOn : Bool = true
